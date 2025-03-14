@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+Its an old app I once built
+Its been containarized and I want to run some ansible scripts to update node modules and json etc.
+
+<details>
+  
+ <summary>node refresher</summary>
+ # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +74,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+</details>
