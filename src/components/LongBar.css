@@ -1,0 +1,36 @@
+.long-bar {
+  background-color: #FCA311;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.phone-number {
+  margin-left: 5%;
+  font-size: 20px;
+}
+
+.contact-button {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 0.3rem;
+  border: none;
+  cursor: pointer;
+  width: auto;
+}
+
+.contact-button:hover {
+  background-color: #111;
+
+
+}
+
+.contact-button:active {
+  outline: none;
+  box-shadow: 0 0 0 2px #333;
+
+}

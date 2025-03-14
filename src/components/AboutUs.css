@@ -1,0 +1,21 @@
+.about-us-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 5%;
+}
+
+.about-us-header {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.about-us-text {
+    margin-bottom: 1rem;
+    text-align: justify;
+    max-width: 40rem;
+}

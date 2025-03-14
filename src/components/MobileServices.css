@@ -1,0 +1,48 @@
+.mobile-services {
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 40px;
+
+  border-radius: 10px;
+
+}
+
+.mobile-services h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.mobile-services ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mobile-services li {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.mobile-services li strong {
+  font-weight: 700;
+  color: #FCA311;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-services {
+    padding: 20px;
+  }
+
+  .mobile-services h2 {
+    font-size: 28px;
+  }
+
+  .mobile-services li {
+    font-size: 16px;
+  }
+}

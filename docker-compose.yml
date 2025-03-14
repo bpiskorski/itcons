@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+ react_app:
+  build: .
+  container_name: react_app
+  environment:
+   - NVM_DIR=/root/.nvm
+  volumes:
+   - .:/src:/app/src
+  ports:
+   - "3000:3000"
+  stdin_open: true
+  tty: true

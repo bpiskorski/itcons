@@ -1,0 +1,119 @@
+/* Contact form styles */
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+hr{
+    width: 80%;
+    
+}
+
+form {
+    margin-left: 25%;
+    margin-right:10%;
+    
+    
+}
+
+
+
+label {
+    
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    margin-left:0%
+    
+
+}
+
+text,
+textarea,
+select {
+    
+    width: 85%;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    border-radius: 0.3rem;
+    border: 1px solid #ccc;
+    
+    margin-bottom: 1.5rem;
+    display:flex;
+    content: wrap;
+    
+    text-align: center;
+
+}
+
+.name-fields {
+    
+    margin-right: 5%;
+    margin-left: 10%;
+    display:inline-block;
+    content: wrap;
+    text-align: start;
+    
+  
+    margin-bottom: 1.5rem;
+    /*padding-left: 10%; */
+
+}
+.name-fields input{
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    border-radius: 0.3rem;
+    border: 1px solid #ccc;
+    width: 100%;
+    display: flex;
+    margin-right: 1%;
+    text-align: center;
+    
+}
+.name-fields2{
+    width: 62%;
+    margin-left: 10%;
+}
+
+textarea {
+    margin-left: 10%;
+    width: 50%;
+    height: 15rem;
+    resize:none
+}
+.message{
+    margin-left:10%
+}
+select {
+    
+    appearance: none;
+    background-position: right 0.5rem center;
+    background-repeat: no-repeat;
+    background-size: 8px auto;
+    padding-right: 2rem;
+}
+
+button[type='submit'] {
+    margin-left: 10%;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 0.3rem;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10%;
+}
+
+button[type='submit']:hover {
+    background-color: #111;
+}
+
+button[type='submit']:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #333;
+}

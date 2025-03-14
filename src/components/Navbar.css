@@ -1,0 +1,39 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #050505;
+  height: 70px;
+}
+
+nav header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+nav h1 {
+  color: #FCA311;
+  font-size: 28px;
+  margin: 0;
+}
+
+nav h2 {
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #FCA311;
+  font-size: 20px;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #2D5D7B;
+}
